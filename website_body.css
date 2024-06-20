@@ -1,0 +1,81 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  background-image: url("tng.png"); /* Replace with your image path */
+  background-repeat: repeat; /* How the pattern repeats (other options: no-repeat, repeat-x, repeat-y) */
+  background-size: 150%;
+  font-family: "Georgia", Georgia, serif;
+  max-width: 1000px;  
+  margin: 0 auto;
+  /* text-align: justify; */
+}
+a {
+  color: #00ffff;
+  margin-right: 10px;
+}
+
+
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.top-right-links {
+  background-color: #000000;
+  color: #000000;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bordered-image {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;  /* background-color: #000000; Optional background color */
+  padding: 10px 20px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  z-index: 10; 
+  border-bottom: 2px solid white;
+
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+header nav {
+  float: right; /* Aligns navigation to the right */
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}

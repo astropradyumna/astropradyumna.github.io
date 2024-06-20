@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="website_body.css">
+  <title>Current Research</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <script>
+  $(document).ready(function(){
+      $("#header").load("header.html");
+  });
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+      displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+      processEscapes: true
+    }
+  });
+  </script>
+</head>
+<body>
+  <div id="header"></div>
+  <div style="height: 50px"></div>
+  <h1>Undergrad Research</h1>
+  <p>As an undegraduate, I worked primarily on galaxy clusters. Some of my projects are as follows:</p>
+  <h2>Testing Radial Acceleration Relation in galaxy clusters</h2>
+  <p></p>
+  <div style="height: 20px"></div>
+</body>
+</html>
