@@ -35,7 +35,7 @@ function App() {
                 <p className="description">Graduate student in Dept. of Physics and Astronomy at University of California, Riverside.</p>
                 
                 <div className="profile-section">
-                  <img src="/src/assets/me.jpg" alt="Prady" className="profile-image" />
+                  <img src="/assets/me.jpg" alt="Prady" className="profile-image" />
                 </div>
 
                 <div className="about-section">
@@ -45,7 +45,7 @@ function App() {
                   </p>
                   
                   <div className="research-plot">
-                    <img src="/src/assets/niusha_plot.png" alt="Research predictions" className="plot-image" />
+                    <img src="/assets/niusha_plot.png" alt="Research predictions" className="plot-image" />
                     <figcaption className="plot-caption">
                       Plot above shows a thin slice of one of the galaxy clusters taken from IllustrisTNG simulation. <em>Left panel</em>: The dwarf galaxies as predicted by the simulation. <em>Center and right panels</em> show galaxies which have been lost in the simulation because of lack of sufficient resolution, and see how many! We use two abundance matching relations to populate the dark subhalos of the simulation -- Power law (center) and Cutoff (right), because we do not fully understand yet how stars populate dark subhalos in the low mass regime.
                     </figcaption>

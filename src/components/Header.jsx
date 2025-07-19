@@ -11,7 +11,7 @@ import {
 const Header = ({ onPageChange }) => {
   const navItems = [
     { label: 'Home', action: () => onPageChange('home') },
-    { label: 'CV', href: '/src/assets/CV.pdf' },
+    { label: 'CV', href: '/assets/CV.pdf' },
     { label: 'Publications', href: 'https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-3947-6239&sort=date+desc' },
     { label: 'Resources', action: () => onPageChange('resources') },
     { label: 'Contact', action: () => onPageChange('contact') }
