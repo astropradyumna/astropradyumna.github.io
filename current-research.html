@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="website_body.css">
+  <title>Current Research</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <script>
+  $(document).ready(function(){
+      $("#header").load("header.html");
+  });
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+      displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+      processEscapes: true
+    }
+  });
+  </script>
+</head>
+<body>
+  <div id="header"></div>
+  <div style="height: 50px"></div>
+  <h1>Current Research</h1>
+  <p>I like working on the framework that allows the first generation of Rubin/Roman faint-galaxy observations to be translated into constraints on dark matter and galaxy formation.</p>
+  <div style="height: 20px"></div>
+</body>
+</html>
