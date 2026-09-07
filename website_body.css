@@ -125,10 +125,9 @@ header nav a {
 
 .flash-card-plot {
   flex: 0 0 42%;
-  min-height: 200px;
   margin: 0;
-  background-color: #ffffff;
-  color: #333333;
+  background-color: transparent;
+  color: #cccccc;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,7 +139,9 @@ header nav a {
   width: 100%;
   height: auto;
   object-fit: contain;
+  padding: 1mm;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 .flash-card-text {
