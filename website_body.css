@@ -40,6 +40,12 @@ p {
   padding: 5px;
 }
 
+.white-padded-image {
+  padding: 1mm;
+  background-color: #ffffff;
+  box-sizing: content-box;
+}
+
 header {
   position: fixed;
   top: 0;
