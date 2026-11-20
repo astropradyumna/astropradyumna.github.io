@@ -178,3 +178,11 @@ header nav a {
   margin-bottom: 6px;
   line-height: 1.4;
 }
+
+.useful-links {
+  display: inline-block;
+  text-align: left;
+  margin: 20px auto;
+  padding-left: 1.4em;
+  line-height: 1.8;
+}
